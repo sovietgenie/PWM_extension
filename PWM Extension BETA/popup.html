@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Voice Command</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+<link rel="stylesheet" href="popupStyle.css"> 
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="pop.js"></script>
+</head>
+
+<body>
+    <div id="bkg"></div>
+    <div id="bkg1"></div>
+    <div id="bkg2"></div>
+    <div id="bkg3"></div>
+    <div id="header">
+        <h1 id="Title">PWM Extension BETA</h1>
+    </div>
+    <div id="auth">
+        <label for="enterUsername">Enter your Email:</label><br><input type="text" name="email" id="email"><br />
+        <br />
+        <label for="enterUsername">Enter your Password:</label><br><input type="password" name="passWord" id="passWord"><br />
+        <br />
+        <input type="submit" value="Sign in" id="submitSignin" >
+        <input type="submit" value="Sign up" id="submitSignup" style="display: none;">
+        <p id="quest">Don't have an account? <span id="signup">Sign up here!</span></p>
+    </div>
+    <div id="centerP">
+        <div class="loader" style="display: none;"></div>
+    </div>
+    <div id="content" style="display: none;">
+        <p>You have successfully logged in!</p>
+        <div id="btnDiv">
+            <input type="submit" value="Sign Out" id="signout" >
+        </div>
+    </div>
+</body>
+</html>

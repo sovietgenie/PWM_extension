@@ -1,0 +1,16 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "Testing express node framework.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" &&"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "^4.16.3",
+    "firebase": "^4.12.1"
+  },
+  "author": "DeAndre Holmes",
+  "license": "ISC"
+}
